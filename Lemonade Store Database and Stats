@@ -1,0 +1,26 @@
+CREATE TABLE Lemonade (id INTEGER PRIMARY KEY, name TEXT, flavor TEXT, price INTEGER, popularity INTEGER);
+
+INSERT INTO Lemonade VALUES (1, "Roasted Peach", "Peach", 4, 2);
+INSERT INTO Lemonade VALUES (2, "Lavender Thyme", "Thyme", 2, 1);
+INSERT INTO Lemonade VALUES (3, "Hot Honey Ginger", "Ginger", 7, 5);
+INSERT INTO Lemonade VALUES (4, "Sparkling Blueberry", "Blueberry", 3, 3);
+INSERT INTO Lemonade VALUES (5, "Pina Colado", "Coconut", 4, 3);
+INSERT INTO Lemonade VALUES (6, "Easter Bunny", "Orange", 6, 1);
+INSERT INTO Lemonade VALUES (7, "Brazillian", "Cotton candy", 5, 2);
+insert into Lemonade VALUES (8, "Blackberry Mint", "Blackberry", 7, 5);
+insert into Lemonade values (9, "Champagne", "Lemon", 4, 3);
+insert into Lemonade values (10, "Jalapeno", "Lime", 4, 5);
+insert into Lemonade values (11, "Frozen Mint" , "Mint", 4, 1);
+insert into Lemonade values (12, "Hot Mess", "Vanilla", 3, 5);
+insert into Lemonade values (13, "Saweetie", "Strawberry", 6, 2);
+insert into Lemonade values (14, "Ki Lont", "Blue Rasberry", 4, 1);
+insert into Lemonade values (15, "Boobie J", "Breastmilk", 7, 1);
+
+--display the database ordered by price.
+SELECT * FROM Lemonade order by price;
+
+
+--what is the avg price of items in the bulk section?
+
+--what are the most 5 popular items? 
+
